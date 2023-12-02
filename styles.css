@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Open+Sans&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+:root {
+    --color-primary-pale-blue: hsl(225, 100%, 94%);
+    --color-primary-bright-blue: hsl(245, 75%, 52%);
+    
+    --color-neutral-very-pale-blye: hsl(225, 100%, 98%);
+    --color-neutral-desaturated-blue: hsl(224, 23%, 55%);
+    --color-neutral-dark-blue: hsl(223, 47%, 23%);
+
+    --fs-paragraph: 16px;
+    --ff-Red-Hat-Display: "Red Hat Display";
+
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    color: var(--color-neutral-dark-blue);
+    font-family: var(--ff-Red-Hat-Display);
+    background: url(./images/pattern-background-desktop.svg), #E1E9FF;
+    object-fit: cover;
+    background-repeat: no-repeat;
+ 
+}
