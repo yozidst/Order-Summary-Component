@@ -73,7 +73,7 @@ h1 {
 }
 
 .summary-contend {
-    padding-top: 40px;
+    padding-top: 46px;
 }
 
 
@@ -127,34 +127,34 @@ h1 {
     transform: translate(0, -5%);
     width: 100%;
     border-radius: 0 0 15px 15px;
-    padding: 20px 50px 20px 50px;
+    padding: 40px 50px 30px 50px;
     
 }
 
-.payment-proceed {
+.payment-proceed h3{
     background-color: var(--color-primary-bright-blue);
     color: #fff;
     border-radius: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
     cursor: pointer;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 3rem;
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
 }
 
-.payment-proceed:hover {
+h3:hover {
     background-color: var(--color-neutral-dark-blue);
 }
 
-.cancel-order {
+.cancel-order h4{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--color-neutral-desaturated-blue);
     font-weight: 700;
 }
 
-.cancel-order:hover {
+h4:hover {
     color: var(--color-neutral-dark-blue);
   }
   
