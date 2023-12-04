@@ -102,7 +102,7 @@ h1 {
     padding-bottom: 15px;
 }
 
-.plan-info > h4 {
+.plan-info > h2 {
     font-size: 16px;
     font-weight: 700;
     line-height: 0;
@@ -133,7 +133,7 @@ h1 {
 
 .payment-proceed {
     background-color: var(--color-primary-bright-blue);
-    color: var(--color-primary-pale-blue);
+    color: #fff;
     border-radius: 10px;
     font-size: 1.2rem;
     text-align: center;
